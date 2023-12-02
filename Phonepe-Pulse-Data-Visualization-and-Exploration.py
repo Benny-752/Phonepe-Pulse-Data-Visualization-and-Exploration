@@ -22,7 +22,7 @@ st.sidebar.header(":heavy_dollar_sign: :violet[**PhonePe Data Visualization**] :
 mydb = sql.connect(host="localhost",
                    port=3307,
                    user="root",
-                   password="pri123",
+                   password="password",
                    database= "phonepe"
                   )
 mycursor = mydb.cursor(buffered=True)
