@@ -46,11 +46,14 @@ The insights on the website and in the report have been drawn from two key sourc
  
  **Data extraction:** 
 
-   Clone the Github using scripting to fetch the data from the Phonepe pulse Github repository and store it in a suitable format such as JSON. Use the below syntax to clone the phonepe github repository into your local drive.
+   Clone the Github using scripting to fetch the data from the Phonepe pulse Github repository and store it in a suitable format such as JSON. Use the below syntax to clone the phonepe github repository into your local drive. 
     
         from git.repo.base import Repo
         Repo.clone_from("GitHub Clone URL","Path to get the cloded files")
-      
+**Alternate method**
+  Install git from:[link](https://git-scm.com/download/) .Execute below commands on git:
+        cd "C:\Phonepe Pulse data"
+        git clone "https://github.com/PhonePe/pulse.git"
  ### Step 3:
  
  **Data transformation:**
